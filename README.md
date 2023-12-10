@@ -5,7 +5,7 @@
 <h3>My Social Media</h3>
 <ul>
   <li>
-    <p>Twtitter :   <a href="https://twitter.com/Zerowavee" target="_blank">  @Zerowavee</a></p>
+    <p>Twitter :   <a href="https://twitter.com/Zerowavee" target="_blank">  @Zerowavee</a></p>
   </li>
   <li>
     <p>Telegram : </p>
