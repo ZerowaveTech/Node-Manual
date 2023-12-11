@@ -14,7 +14,26 @@ Erbie Chain solves the blockchain trilemma, which entails a necessary tradeoff b
 
 ErbieChain Social Media
 
-[![](https://user-images.githubusercontent.com/50621007/176236430-53b0f4de-41ff-41f7-92a1-4233890a90c8.png)](https://discord.com/invite/N4ksH6tqRX) [![](https://user-images.githubusercontent.com/56349947/205331052-6d4d4216-3529-490c-a1b9-8c3618aac8e2.png)](https://twitter.com/WormholesChain) [![](https://user-images.githubusercontent.com/50621007/183283867-56b4d69f-bc6e-4939-b00a-72aa019d1aea.png)](https://t.me/wormholes\_chain)
+<a href="https://discord.com/invite/N4ksH6tqRX">
+  <img src="https://user-images.githubusercontent.com/50621007/176236430-53b0f4de-41ff-41f7-92a1-4233890a90c8.png"
+        width="120px"
+        heigth="120px"
+    />
+</a>
+
+<a href="https://twitter.com/WormholesChain">
+  <img src="https://user-images.githubusercontent.com/56349947/205331052-6d4d4216-3529-490c-a1b9-8c3618aac8e2.png"
+        width="120px"
+        heigth="120px"
+    />
+</a>
+
+<a href="https://t.me/wormholes\_chain">
+  <img src="https://user-images.githubusercontent.com/50621007/183283867-56b4d69f-bc6e-4939-b00a-72aa019d1aea.png"
+        width="120px"
+        heigth="120px"
+    />
+</a>
 
 ## General Information
 
