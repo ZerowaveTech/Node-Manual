@@ -17,7 +17,9 @@
   * [DockerInstall](testnet/Deinfra/dockerinstall.md)
   * [Erlang](testnet/Deinfra/erlang.md)
   * [SourceInstall](testnet/Deinfra/sourceinstall.md)
-* [Wormholes](testnet/Wormholes.md)
+* [Erbie](testnet/erbie/README.md)
+  * [Installation](testnet/erbie/installation.md)
+* [Page](testnet/page.md)
 
 ## 💰 Mainnet
 
