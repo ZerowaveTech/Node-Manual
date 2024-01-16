@@ -4,6 +4,8 @@
 
 ## 🧪 Testnet
 
+* [BEVM](testnet/bevm/README.md)
+  * [Installation](testnet/bevm/installation.md)
 * [Transformer Chain](testnet/transformer/README.md)
   * [Installation](testnet/transformer/installation.md)
 * [Q-Blockchain](testnet/Q-Block/README.md)
