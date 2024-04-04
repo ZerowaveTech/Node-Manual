@@ -8,19 +8,13 @@ description: >-
 
 [**`availup`**](https://github.com/availproject/availup) is the recommended way of running the Avail light client for most users. `availup` is a shell wrapper that allows you to spin up your own instance of the Avail light client with a simple `curl` command.
 
-1. set the screen to make it run in the background:
-
-```bash
-screen -R avail
-```
-
-2. to tun avail light client, just run this command:
+1. to tun avail light client, just run this command:
 
 ```bash
 curl -sL1 avail.sh | bash
 ```
 
-3. see output:
+2. see output:
 
 ```log
 2024-03-20T10:50:25.528628Z  INFO avail_light::light_client: Processing finalized block block_number=562690 block_delay=20
@@ -45,6 +39,27 @@ curl -sL1 avail.sh | bash
 2024-03-20T10:50:46.513785Z  INFO avail_light::light_client: Sleeping for 15.195224667s seconds
 2024-03-20T10:50:46.513795Z  INFO avail_light::api::v2: Message published to clients topic=ConfidenceAchieved published=0 failed=0
 2024-03-20T10:50:47.056255Z  INFO avail_light::network::p2p::event_loop: Cell upload success rate for block 562691: 0/10. Duration: 0
+```
+
+3. set systemd file to auto restart the node
+
+```bash
+sudo tee /etc/systemd/system/avail.service > /dev/null <<EOF
+[Unit]
+Description=Avail Light Client
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+User=$USER
+Restart=always
+RestartSec=5
+ExecStart=$HOME/.avail/bin/avail-light --network goldberg --config $HOME/.avail/config/config.yml --app-id 0 --identity $HOME/.avail/identity/identity.toml
+LimitNOFILE=65000
+
+[Install]
+WantedBy=multi-user.target
+EOF
 ```
 
 4. backup seed phrase on `$HOME/.avail/identity/identity.toml`
