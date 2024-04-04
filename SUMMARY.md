@@ -4,6 +4,8 @@
 
 ## 🧪 Testnet
 
+* [Avail - Light Client](testnet/avail-light-client/README.md)
+  * [Installation](testnet/avail-light-client/installation.md)
 * [BEVM](testnet/bevm/README.md)
   * [Installation](testnet/bevm/installation.md)
 * [Transformer Chain](testnet/transformer/README.md)
