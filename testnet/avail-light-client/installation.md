@@ -62,4 +62,18 @@ WantedBy=multi-user.target
 EOF
 ```
 
-4. backup seed phrase on `$HOME/.avail/identity/identity.toml`
+4. Running systemd
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable avail
+sudo systemctl start avail
+```
+
+5. see output log
+
+```bash
+sudo journalctl -fu avail -o cat
+```
+
+6. backup seed phrase on `$HOME/.avail/identity/identity.toml`
