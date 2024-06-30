@@ -6,7 +6,7 @@ This document creates a setup where the worker node is supported by a side node 
 
 ## Website
 
-* [Dashboard](https://app.allora.network/points/overview) -> Connect Keplr Wallet&#x20;
+* [Dashboard](https://app.allora.network/points/overview?ref=eyJyZWZlcnJlcl9pZCI6Ijc0NmQwNGYxLTQ3ZjgtNDU2My05NjBhLWE5MzliOTkzZmYyMyJ9) -> Connect Keplr Wallet&#x20;
 * [Faucet](https://faucet.edgenet.allora.network/) -> get faucet from here
 * [Chain Explorer](https://explorer.edgenet.allora.network/wallet/suggest)
 
