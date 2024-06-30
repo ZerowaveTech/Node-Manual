@@ -4,6 +4,8 @@
 
 ## 🧪 Testnet
 
+* [Allora](testnet/allora/README.md)
+  * [Installation](testnet/allora/installation.md)
 * [Avail - Light Client](testnet/avail-light-client/README.md)
   * [Installation](testnet/avail-light-client/installation.md)
 * [BEVM](testnet/bevm/README.md)
