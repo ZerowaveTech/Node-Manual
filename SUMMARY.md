@@ -43,6 +43,10 @@
   * [Export\_PrivKey](testnet/Q-Block/export\_privkey.md)
 * [Sonaric](testnet/sonaric/README.md)
   * [Installation](testnet/sonaric/installation.md)
+* [Symphony](testnet/symphony/README.md)
+  * [Installation](testnet/symphony/installation.md)
+  * [Create Validator](testnet/symphony/create-validator.md)
+  * [Snapshot](testnet/symphony/snapshot.md)
 * [Transformer Chain](testnet/transformer/README.md)
   * [Installation](testnet/transformer/installation.md)
 
