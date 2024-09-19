@@ -8,11 +8,6 @@
   * [Installation](testnet/allora/installation.md)
 * [Avail - Light Client](testnet/avail-light-client/README.md)
   * [Installation](testnet/avail-light-client/installation.md)
-* [Bittensor](testnet/bittensor/README.md)
-  * [Subnet 14 - Palaidn](testnet/bittensor/subnet-14-palaidn/README.md)
-    * [Installation](testnet/bittensor/subnet-14-palaidn/installation.md)
-  * [Subnet 15 - De-Val](testnet/bittensor/subnet-15-de-val/README.md)
-    * [Installation](testnet/bittensor/subnet-15-de-val/installation.md)
 * [BEVM](testnet/bevm/README.md)
   * [Installation](testnet/bevm/installation.md)
 * [Chasm](testnet/chasm/README.md)
@@ -60,6 +55,11 @@
 
 ## 💰 Mainnet
 
+* [Bittensor](mainnet/bittensor/README.md)
+  * [Subnet 14 - Palaidn](mainnet/bittensor/subnet-14-palaidn/README.md)
+    * [Installation](mainnet/bittensor/subnet-14-palaidn/installation.md)
+  * [Subnet 15 - De-Val](mainnet/bittensor/subnet-15-de-val/README.md)
+    * [Installation](mainnet/bittensor/subnet-15-de-val/installation.md)
 * [Forta](mainnet/Forta/README.md)
   * [Installation](mainnet/Forta/installation.md)
 
